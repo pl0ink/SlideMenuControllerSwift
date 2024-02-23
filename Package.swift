@@ -9,7 +9,7 @@
 import PackageDescription
 
 let package = Package(
-	name: "EventHub",
+	name: "SlideMenuControllerSwift",
 	// Which platforms and minimum deployment targets are supported
 	// See: https://docs.swift.org/package-manager/PackageDescription/PackageDescription.html#supportedplatform
 	platforms: [
@@ -21,8 +21,8 @@ let package = Package(
 		// Products define the executables and libraries produced by a package, and make them visible to other packages.
 		// The library that you can actually import
 		.library(
-			name: "EventHub",
-			targets: ["EventHub"])
+			name: "SlideMenuControllerSwift",
+			targets: ["SlideMenuControllerSwift"])
 	],
 	// Targets are the basic building blocks of a package. A target can define a module or a test suite.
 	// Targets can depend on other targets in this package, and on products in packages which this package depends on.
@@ -30,7 +30,7 @@ let package = Package(
 	targets: [
 
 		.target(
-			name: "EventHub",
-			path: "Pod/Classes")
+			name: "SlideMenuControllerSwift",
+			path: "Source")
 	]
 )
